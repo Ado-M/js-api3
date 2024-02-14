@@ -1,0 +1,67 @@
+body {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-image: url("https://images.unsplash.com/photo-1607791330831-d3dcf312e2d1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhpZ2glMjByZXMlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.main {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  box-shadow: 20px 0px 30px 10px;
+  width: 50%;
+  height: 400px;
+}
+.main_box {
+  position: relative;
+  top: 20px;
+}
+
+.search-container {
+  margin-bottom: 200px;
+  margin-left: 50px;
+}
+
+#characterInfo {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: rgb(214, 245, 34);
+}
+img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  right: 230px;
+  bottom: 300px;
+}
+button {
+  position: relative;
+  left: 10px;
+  top: 2px;
+  width: 110px;
+  background-color: rgb(155, 7, 7);
+  color: white;
+}
+input {
+  color: rgb(51, 59, 3);
+}
+.Navn,
+.Skuspiller,
+.Hus,
+.Kjønn,
+.Fødselsdag,
+.Øyenfarge,
+.Hårfarge {
+  margin: 20px;
+  font-size: 18px;
+  background-color: rgb(62, 1, 1);
+}
